@@ -12,6 +12,7 @@ type
   TF_Principal = class(TForm)
     rectTop: TRectangle;
     imgMenu: TImage;
+    imgAdicionar: TImage;
     Label1: TLabel;
     lvCatalogo: TListView;
     fotoImg: TImage;
