@@ -1,0 +1,120 @@
+object F_Principal: TF_Principal
+  Left = 0
+  Top = 0
+  Caption = 'S'
+  ClientHeight = 699
+  ClientWidth = 416
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object rectTop: TRectangle
+    Align = Top
+    Fill.Color = claWhite
+    Sides = [Bottom]
+    Size.Width = 416.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE9E9E9
+    object Image1: TImage
+      MultiResBitmap.Height = 39
+      MultiResBitmap.Width = 39
+      MultiResBitmap = <
+        item
+          Width = 39
+          Height = 39
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000270000002708060000008CA351
+            350000000473424954080808087C086488000000D0494441545885EDD7C109C2
+            301406E03FAD82A53DB41398111CA12BB841DDA08B48B381740237908CE006C6
+            095A45F120A55E2C2412102FAF58DE777B8F407EDEE185008C31366DE2B39197
+            B715D0A7F4516646ABC8D81D275C5E3629306F4833399E9956593B54BEC9ED00
+            48CA48EF28AD56F19AFE5EC6D8C4F9F65C0188257D92C0E82AAA9D965DE4E543
+            02DD89349425086379D88AF3507B26772D807084C9F5465749FDFD20638CFDC4
+            B3E7EEFB71FE10C268156F9C8E5DFCC11FA291422CC85F88BEEF2E5A2547EA7B
+            19636C4C2FDB1F360A7B5EF23F0000000049454E44AE426082}
+          FileName = 
+            'C:\Users\allis\Documents\github\Catalago\Fontes\Mobile\Imagens\m' +
+            'enu.png'
+        end>
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 43.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Image2: TImage
+      MultiResBitmap.Height = 39
+      MultiResBitmap.Width = 39
+      MultiResBitmap = <
+        item
+          Width = 39
+          Height = 39
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000270000002708060000008CA351
+            350000000473424954080808087C086488000000B6494441545885EDD5C11182
+            301046E117F46C2BD0815B82A5A403C60AB4144BC00A845A8423E041C79B4C5C
+            72E0F07FD790CD9BCC002022B21D168793C5FE61F169B96616B9060125504171
+            CC3530675C768AF3529C97E2BC14E7159616DFBFA2D42FFE6C80010D84266DCF
+            D835D7C3EDD7EA7E7973B8C05CA51DF4659FD004450B78E3A633ECCAB483FEBF
+            B9108AA4E756B338D416FBD9E250E79AB9E91742715E8AF3529C97E2BC32C64D
+            77A085B1CB37534464B51795F4259A2FCF59810000000049454E44AE426082}
+          FileName = 
+            'C:\Users\allis\Documents\github\Catalago\Fontes\Mobile\Imagens\a' +
+            'dd.png'
+        end>
+      Align = Right
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 361.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 43.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family]
+      Size.Width = 306.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF292929
+      TextSettings.HorzAlign = Center
+      Text = 'Cat'#225'logos'
+      TabOrder = 2
+    end
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemSpaces.Left = 0.000000000000000000
+    ItemSpaces.Right = 0.000000000000000000
+    Align = Client
+    Size.Width = 416.000000000000000000
+    Size.Height = 642.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    CanSwipeDelete = False
+    ShowSelection = False
+  end
+end

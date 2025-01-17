@@ -216,6 +216,18 @@
             <Form>F_Principal</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="U_CadCatalogo.pas">
+            <Form>F_CadCatalogo</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="U_CatalogoProdutos.pas">
+            <Form>F_CatalogoProdutos</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="U_CadProdutoCatalogo.pas">
+            <Form>F_CadProdutoCatalogo</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -1213,12 +1225,6 @@
             <Platforms>
                 <Platform value="Android">True</Platform>
                 <Platform value="Android64">True</Platform>
-                <Platform value="iOSDevice32">False</Platform>
-                <Platform value="iOSDevice64">False</Platform>
-                <Platform value="iOSSimARM64">False</Platform>
-                <Platform value="OSX32">False</Platform>
-                <Platform value="OSX64">False</Platform>
-                <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
             </Platforms>

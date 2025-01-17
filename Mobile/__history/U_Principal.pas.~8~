@@ -11,9 +11,10 @@ uses
 type
   TF_Principal = class(TForm)
     rectTop: TRectangle;
-    imgMenu: TImage;
+    Image1: TImage;
+    Image2: TImage;
     Label1: TLabel;
-    lvCatalogo: TListView;
+    ListView1: TListView;
     fotoImg: TImage;
     editarImg: TImage;
     produtoImg: TImage;

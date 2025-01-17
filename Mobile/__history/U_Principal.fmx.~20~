@@ -2,8 +2,8 @@ object F_Principal: TF_Principal
   Left = 0
   Top = 0
   Caption = 'Z'
-  ClientHeight = 675
-  ClientWidth = 430
+  ClientHeight = 699
+  ClientWidth = 416
   Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -13,7 +13,7 @@ object F_Principal: TF_Principal
     Align = Top
     Fill.Color = claWhite
     Sides = [Bottom]
-    Size.Width = 430.000000000000000000
+    Size.Width = 416.000000000000000000
     Size.Height = 57.000000000000000000
     Size.PlatformDefault = False
     Stroke.Color = xFFE9E9E9
@@ -72,7 +72,7 @@ object F_Principal: TF_Principal
       Margins.Top = 7.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 7.000000000000000000
-      Position.X = 375.000000000000000000
+      Position.X = 361.000000000000000000
       Position.Y = 7.000000000000000000
       Size.Width = 50.000000000000000000
       Size.Height = 43.000000000000000000
@@ -81,7 +81,7 @@ object F_Principal: TF_Principal
     object Label1: TLabel
       Align = Client
       StyledSettings = [Family]
-      Size.Width = 320.000000000000000000
+      Size.Width = 306.000000000000000000
       Size.Height = 57.000000000000000000
       Size.PlatformDefault = False
       TextSettings.Font.Size = 18.000000000000000000
@@ -100,9 +100,9 @@ object F_Principal: TF_Principal
     ItemSpaces.Left = 0.000000000000000000
     ItemSpaces.Right = 0.000000000000000000
     Align = Scale
-    Position.Y = 55.042919158935550000
-    Size.Width = 430.000000000000000000
-    Size.Height = 619.957092285156300000
+    Position.Y = 57.000000000000000000
+    Size.Width = 416.000000000000000000
+    Size.Height = 642.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     ItemAppearance.ItemHeight = 150

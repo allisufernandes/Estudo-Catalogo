@@ -1,0 +1,12 @@
+object F_CadProdutoCatalogo: TF_CadProdutoCatalogo
+  Left = 0
+  Top = 0
+  Caption = 'F_CadProdutoCatalogo'
+  ClientHeight = 678
+  ClientWidth = 417
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+end

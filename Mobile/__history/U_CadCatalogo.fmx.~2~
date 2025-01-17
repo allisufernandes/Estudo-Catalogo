@@ -1,9 +1,10 @@
-object F_Principal: TF_Principal
+object F_CadCatalogo: TF_CadCatalogo
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 480
-  ClientWidth = 640
+  ClientHeight = 669
+  ClientWidth = 415
+  Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
